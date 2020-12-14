@@ -168,6 +168,7 @@ class FindDropdownState<T> extends State<FindDropdown<T>> {
 
   @override
   Widget build(BuildContext context) {
+    setSelectedItem(widget.selectedItem);
     return Column(
       mainAxisSize: MainAxisSize.min,
       crossAxisAlignment: CrossAxisAlignment.start,
